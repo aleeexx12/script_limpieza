@@ -29,7 +29,6 @@ rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile
 
 REM ******************** FIREFOX ********************
 taskkill /F /IM "firefox.exe"
-REM define qual é a pasta Profile do usuário e apaga os arquivos temporários dali
 set parentfolder=C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles\
 for /f "tokens=*" %%a in ('"dir /b "%parentfolder%"|findstr ".*\.default-release""') do set folder=%%a
 del C:\Users\%USERNAME%\AppData\local\Mozilla\Firefox\Profiles\%folder%\cache2\entries\*.
