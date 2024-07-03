@@ -1,9 +1,11 @@
-<h1>Script para limpiar la caché de los principales navegadores:</h1>
+# Script para limpiar la caché de los principales navegadores:
+
+## Navegadores Soportados
 - Microsoft Edge
 - Mozilla Firefox
 - Vivaldi
--Brave
+- Brave
 - Google Chrome
 
-**Ejecución**:
+## Ejecución:
 - Se debe ejecutar el archivo como administrador
